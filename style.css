@@ -1,0 +1,139 @@
+/* =============================== */
+/*            Cabeçalho            */
+/* =============================== */
+
+.gabriel /*Estilização de todo cabeçalho*/ {
+        background-image: url(icone_fundo_cabeçalho.avif); /*Usado para colocar uma Imagem no fundo do Cabeçalho*/
+}
+
+#apresentacao /*Estilização de toda a divisão --apresentação-- do Cabeçalho. Observação:Não é possível usar o display em itens do id="apresentação" quando é class="gabriel"*/ {
+    display: flex; /*Usado para alinhar os itens da divisão. Flex para alinhar eles com flexibilidade*/
+    justify-content: center; /*Usado para posicionar todos os itens do display no centro*/
+    gap: 150px; /*Usado para dar um espaço entre os itens do display*/
+}
+
+#suporte /*Estilização da imagem 1*/ {
+    max-width: 100%; /*Código que garante que a imagem não ultrapasse o container*/
+    width: 250px; /*Código que define a largura da imagem*/
+    height: 220px; /*Código que define a altura da imagem*/
+    padding-top: 25px; /*Código que define a distância interna da imagem ao seu topo*/
+    padding-bottom: 25px; /*Código que define a distância interna da imagem a sua parte de baixo*/
+}
+
+.gabriel h1 /*Estilização de apenas os h1 da classe gabriel*/ {
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do título*/
+    font-style: normal; /*Código que define o estilo da fonte do título*/
+    color: #ffffff; /*Código que define a cor da fonte do título*/
+    font-size: 60px; /*Código que define o tamnhado da fonte*/
+    word-spacing: 10px; /*Código que define o espaço entre as palavras*/
+    letter-spacing: 10px; /*Código que define o espaço entre as letras*/
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    top: 50px; /*Código que define a posição exata do título em relação ao topo*/ 
+    font-variant: small-caps; /*Código que dá ao título uma variante de todas as letras maiúsculas com tamnhado de minúsculas*/ 
+}
+
+#dev /*Estilização da imagem 2*/ {
+    max-width: 100%; /*Código que garante que a imagem não ultrapasse o container*/
+    width: 200px; /*Código que define a largura da imagem*/
+    height: 230px; /*Código que define a altura da imagem*/
+    padding-top: 20px; /*Código que define a distância interna da imagem ao seu topo*/
+    padding-bottom: 25px; /*Código que define a distância interna da imagem a sua parte de baixo*/
+}
+
+/* =============================== */
+/*         Fim do Cabeçalho        */
+/* =============================== */
+
+
+
+
+
+/* =============================== */
+/*              Meio               */
+/* =============================== */
+
+/* =============================== */
+/*      Seção Resumo sobre min     */
+/* =============================== */
+
+.meu_resumo /*Estilização de Toda a Seção de Resumo sobre Min*/ {
+    background-color: #000000; /*Código que coloca uma cor para todo o fundo da Seção*/
+}
+
+#quem_sou_eu /*Estilização Apenas de Divisão Quem Sou Eu*/ {
+    display: flex; /*Usado para alinhar os itens da divisão. Flex para alinhar eles com flexibilidade*/
+}
+
+#textos_do_resumo /*Estlização Apenas da Navegação Textos do Resumo*/ {
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do texto*/
+    color: white; /*Código que define a cor da fonte do texto*/
+}
+
+#minha_foto /*Estilização Apenas da Minha Foto de Perfil*/ {
+    max-height: 100%; /*Código que garante que a imagem não ultrapasse o container*/
+    width: 560px; /*Código que define a largura da imagem*/
+    height: 600px; /*Código que define a altura da imagem*/
+}
+
+#h3_1 /*Estilização de Apenas o h3 1 da Seção Resumo Sobre Min*/ {
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    text-align: center; /*Código que alinha o título em alguma parte do site*/
+    top: 20px; /*Código que define a posição exata do título em relação ao topo*/
+    font-size: 30px; /*Código que define o tamnhado da fonte*/
+    word-spacing: 10px; /*Código que define o espaço entre as palavras*/
+}
+
+#h3_2 /*Estilização de Apenas o h3 2 da Seção Resumo Sobre Min*/ {
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    text-align: center; /*Código que alinha o título em alguma parte do site*/
+    top: 25px; /*Código que define a posição exata do título em relação ao topo*/
+    font-size: 30px; /*Código que define o tamnhado da fonte*/
+    word-spacing: 10px; /*Código que define o espaço entre as palavras*/
+}
+
+#p1 /*Estilização de Apenas do p1 da Seção Resumo Sobre Min*/ {
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 40px; /*Código que define a posição exata do parágrafo em relação a esquerda*/
+    top: 25px; /*Código que define a posição exata do título em relação ao topo*/ 
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    word-spacing: 10px; /*Código que define o espaço entre as palavras*/
+}
+
+#p2 /*Estilização de Apenas do p2 da Seção Resumo Sobre Min*/ {
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 40px; /*Código que define a posição exata do parágrafo em relação a esquerda*/
+    top: 25px; /*Código que define a posição exata do título em relação ao topo*/ 
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    word-spacing: 10px; /*Código que define o espaço entre as palavras*/
+}
+
+#p3 /*Estilização de Apenas do p3 da Seção Resumo Sobre Min*/ {
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 40px; /*Código que define a posição exata do parágrafo em relação a esquerda*/
+    top: 25px; /*Código que define a posição exata do título em relação ao topo*/ 
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    word-spacing: 10px; /*Código que define o espaço entre as palavras*/
+}
+
+#p4 /*Estilização de Apenas do p4 da Seção Resumo Sobre Min*/ {
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 40px; /*Código que define a posição exata do parágrafo em relação a esquerda*/
+    top: 25px; /*Código que define a posição exata do título em relação ao topo*/ 
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    word-spacing: 10px; /*Código que define o espaço entre as palavras*/
+}
+/* =============================== */
+/*  Fim da Seção Resumo sobre min  */
+/* =============================== */
+
+/* =============================== */
+/*    Seção Formação Acadêmica     */
+/* =============================== */
+
+.formacao_academica /*Estilização Apenas da Seção Formação Acadêmica*/ {
+    display: flex; /*Usado para alinhar os itens da divisão. Flex para alinhar eles com flexibilidade*/
+}
+
+/* =============================== */
+/* Fim da Seção Formação Acadêmica */
+/* =============================== */
