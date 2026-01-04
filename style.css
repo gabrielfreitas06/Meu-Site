@@ -131,9 +131,514 @@
 /* =============================== */
 
 .formacao_academica /*Estilização Apenas da Seção Formação Acadêmica*/ {
+    border: 2px solid; /*Código que cria bordas em torno do item*/
+}
+
+#h1_1 /*Estilização Apenas do h1_1 sa Seção Formação Acadêmica*/ {
+    text-align: center; /*Código que alinha o título em alguma parte do site*/
+    padding-top: 13px; /*Código que define a distância interna da imagem ao seu topo*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do texto*/
+    font-size: 30px; /*Código que define o tamnhado da fonte*/
+    font-variant: small-caps; /*Código que dá ao título uma variante de todas as letras maiúsculas com tamnhado de minúsculas*/ 
+}
+
+#ensino_basico /*Estilização Apenas da Divisão Ensino Básico*/ {
+    height: 630px; /*Define a altura de toda a divisão Ensino Básico*/
+    border: 2px solid; /*Código que cria bordas em torno do item*/
+    background-color: aqua; /*Código que coloca uma cor para todo o fundo da Seção*/
+}
+
+#titulos_ensino_basico /*Estilização Apenas da Navegação Títulos do Ensino Básico*/ {
     display: flex; /*Usado para alinhar os itens da divisão. Flex para alinhar eles com flexibilidade*/
+    gap: 150px; /*Usado para dar um espaço entre os itens do display*/
+}
+
+#h1_2 /*Estilização Apenas do h1_2 sa Seção Formação Acadêmica*/ {
+    font-size: 40px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 38px; /*Código que define a posição exata do título em relação ao topo*/ 
+}
+
+#h1_3 /*Estilização Apenas do h1_3 sa Seção Formação Acadêmica*/ {
+    font-size: 40px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 590px; /*Código que define a posição exata do título em relação ao topo*/
+}
+
+.img_competencia_ensino_basico /*Estilização Apenas das Imagens da Navegação Competências Ensino Básico*/ {
+    width: 100px; /*Código que define a largura da imagem*/
+    height: 120px; /*Código que define a altura da imagem*/
+}
+
+#competencias_ensino_basico h4 /*Estilização Apenas dos h4 da Navegação Competências Ensino Básico*/  {
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+}
+
+#competencias_ensino_basico /*Estilização Apenas da Navegação Competências Ensino Básico*/ {
+    display: flex; /*Usado para alinhar os itens da Navegação. Flex para alinhar eles com flexibilidade*/
+    gap: 30px; /*Usado para dar um espaço entre os itens do display*/
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 570px; /*Código que define a posição exata do título em relação ao topo*/
+    bottom: 460px; /*Código que define a posição exata do título em relação ao "piso"*/
+    display: grid; /*Código que cria um layout com colunas e suas larguras*/
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 7fr; /*Código complementar do Grid, define quantas colunas e suas larguras*/
+}
+
+#img_guiomar img /*Estilização Apenas da Imagem da Navegação Img Guiomar do Ensino Básico*/ {
+    width: 490px; /*Código que define a largura da imagem*/
+    height: 420px; /*Código que define a altura da imagem*/
+    border: 6px solid; /*Código que cria bordas em torno do item*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 30px; /*Código que define a posição exata da imagem em relação a esquerda*/
+}
+
+#img_guiomar figcaption /*Estilização Apenas da Legenda da Imagem da Navegação Img Guiomar do Ensino Básico*/ {
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    top: 40px; /*Código que define a posição exata do parágrafo em relação a esquerda*/
+    left: 28px; /*Código que define a posição exata do título em relação a sua esquerda*/ 
+    font-size: 20px; /*Código que define o tamnhado da fonte*/
+}
+
+#ensino_tecnico /*Estilização Apenas da Divisão Ensino Técnico*/ {
+    height: 630px; /*Define a altura de toda a divisão Ensino Básico*/
+    border: 2px solid; /*Código que cria bordas em torno do item*/
+    background-color: gray; /*Código que coloca uma cor para todo o fundo da Seção*/
+}
+
+#titulos_ensino_tecnicos /*Estilização apenas da Navegação Títulos Ensino Técnicos*/ {
+    display: flex; /*Usado para alinhar os itens da divisão. Flex para alinhar eles com flexibilidade*/
+    gap: 150px; /*Usado para dar um espaço entre os itens do display*/
+}
+
+#h1_4 /*Estilização Apenas do h1_4 sa Seção Formação Acadêmica*/ {
+    font-size: 40px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 38px; /*Código que define a posição exata do título em relação ao topo*/ 
+}
+
+#h1_5 /*Estilização Apenas do h1_5 sa Seção Formação Acadêmica*/ {
+    font-size: 40px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 590px; /*Código que define a posição exata do título em relação ao topo*/
+}
+
+.img_competencia_ensino_tecnico /*Estilização Apenas das Imagens da Navegação Competências Ensino Técnico*/ {
+    width: 100px; /*Código que define a largura da imagem*/
+    height: 120px; /*Código que define a altura da imagem*/
+}
+
+#competencias_ensino_tecnico h4 /*Estilização Apenas dos h4 da Navegação Competências Ensino Técnicos*/  {
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+}
+
+#competencias_ensino_tecnico /*Estilização Apenas da Navegação Competências Ensino Técnico*/ {
+    display: flex; /*Usado para alinhar os itens da Navegação. Flex para alinhar eles com flexibilidade*/
+    gap: 30px; /*Usado para dar um espaço entre os itens do display*/
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    left: 570px; /*Código que define a posição exata do título em relação ao topo*/
+    bottom: 460px; /*Código que define a posição exata do título em relação ao "piso"*/
+    display: grid; /*Código que cria um layout com colunas e suas larguras*/
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 4fr ; /*Código complementar do Grid, define quantas colunas e suas larguras*/
+}
+
+#img_senac img /*Estilização Apenas da Imagem da Navegação Img Senac do Ensino Técnico*/ {
+    width: 490px; /*Código que define a largura da imagem*/
+    height: 420px; /*Código que define a altura da imagem*/
+    border: 6px solid; /*Código que cria bordas em torno do item*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 30px; /*Código que define a posição exata da imagem em relação a esquerda*/
+}
+
+#img_senac figcaption /*Estilização Apenas da Legenda da Imagem da Navegação Img Senac do Ensino Técnico*/ {
+    position: relative; /*Código que define a posição exata do título ao referencial relativo*/
+    top: 40px; /*Código que define a posição exata do parágrafo em relação a esquerda*/
+    left: 28px; /*Código que define a posição exata do título em relação ao topo*/ 
+    font-size: 20px; /*Código que define o tamnhado da fonte*/
 }
 
 /* =============================== */
 /* Fim da Seção Formação Acadêmica */
+/* =============================== */
+
+/* =============================== */
+/*  Seção Licenças e Certificações */
+/* =============================== */
+
+#titulo_licencas_certificacoes /*Estilização Apenas da Divisão Títulos Licenças e Certificações */ {
+    text-align: center; /*Código que alinha o título em alguma parte do site*/
+    padding-top: 13px; /*Código que define a distância interna da imagem ao seu topo*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do texto*/
+    font-size: 20px; /*Código que define o tamnhado da fonte*/
+    font-variant: small-caps; /*Código que dá ao título uma variante de todas as letras maiúsculas com tamnhado de minúsculas*/ 
+}
+
+.logo_cisco /*Estilização Apenas das logos da Cisco*/ {
+    width: 70px; /*Código que define a largura da imagem*/
+    height: 70px; /*Código que define a altura da imagem*/
+    border-radius: 100%; /*Código permiti arredondar elementos*/
+}
+
+#certificacoes_cisco /*Estilização Apenas da Divisão Certificações Cisco*/ {
+    display: flex; /*Usado para alinhar os itens da Navegação. Flex para alinhar eles com flexibilidade*/
+    gap: 50px; /*Usado para dar um espaço entre os itens do display*/
+    display: grid; /*Código que cria um layout com colunas e suas larguras*/
+    grid-template-columns: 1fr 1fr ; /*Código complementar do Grid, define quantas colunas e suas larguras*/
+}
+/* ========= */
+/*  Cisco 1  */
+/* ========= */
+
+#cisco_1 /*Estilização de todo Cisco 1*/ {
+    border: hidden; /*Código que cria bordas em torno do item*/ /*Deixa o item invisível*/
+}
+
+#cisco_1 img /*Estilização Apenas Img Cisco 1*/ {
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 10px; /*Código que define a posição exata do título em relação ao topo*/
+    left: 25px; /*Código que define a posição exata do título em relação ao topo*/
+}
+
+#cisco_1 a /*Esrilização Apenas 'a' Cisco 1*/ {
+    border: 4px solid; /*Código que cria bordas em torno do item*/
+    border-color: black; /*Código que dá cor a borda do item*/
+    border-end-end-radius: 61px; /*Código que arredonda a parte inferior direita da borda*/
+    border-bottom-left-radius: 61px; /*Código que arredonda a parte inferior esquerda da borda*/
+    border-top-left-radius: 61px; /*Código que arredonda a parte superior esquerda da borda*/
+    border-top-right-radius: 61px; /*Código que arredonda a parte superior direita da borda*/
+    background-color: gray; /*Código que coloca uma cor para todo o fundo da Seção*/
+    padding-top: 20px; /*Código que define a distância interna da imagem ao seu topo*/
+    padding-left: 50px; /*Código que define a distância interna da imagem a sua esquerda*/
+    padding-right: 50px; /*Código que define a distância interna da imagem a sua direita*/
+    padding-bottom: 20px; /*Código que define a distância interna da imagem ao seu chão*/
+    color: black; /*Código que define a cor da fonte do texto*/
+    text-decoration: none; /*Código que define a decoração do texto*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do título*/
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    bottom: 16px; /*Código que define a posição exata do título em relação ao "piso"*/
+    left: 35px; /*Código que define a posição exata do título em relação ao topo*/
+    cursor: pointer; /*Código que muda o cursor do mouse para uma mãozinha, item clicável*/
+}
+
+#cisco_1 a:hover /*Esrilização Apenas 'a' ao passar o mouse do Cisco 1*/ {
+    color: darkblue; /*Código que define a cor da fonte do texto*/
+    text-decoration: underline; /*Código que deixa o texto sublinhado*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+
+/* ========= */
+/*  Cisco 2  */
+/* ========= */
+
+#cisco_2 /*Estilização de todo Cisco 2*/ {
+    border: hidden; /*Código que cria bordas em torno do item*/ /*Deixa o item invisível*/
+}
+
+#cisco_2 img /*Estilização Apenas Img Cisco 2*/ {
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 10px; /*Código que define a posição exata do título em relação ao topo*/
+    left: 25px; /*Código que define a posição exata do título em relação ao topo*/
+}
+
+#cisco_2 a /*Esrilização Apenas 'a' Cisco 2*/ {
+    border: 4px solid; /*Código que cria bordas em torno do item*/
+    border-color: black; /*Código que dá cor a borda do item*/
+    border-end-end-radius: 61px; /*Código que arredonda a parte inferior direita da borda*/
+    border-bottom-left-radius: 61px; /*Código que arredonda a parte inferior esquerda da borda*/
+    border-top-left-radius: 61px; /*Código que arredonda a parte superior esquerda da borda*/
+    border-top-right-radius: 61px; /*Código que arredonda a parte superior direita da borda*/
+    background-color: gray; /*Código que coloca uma cor para todo o fundo da Seção*/
+    padding-top: 20px; /*Código que define a distância interna da imagem ao seu topo*/
+    padding-left: 50px; /*Código que define a distância interna da imagem a sua esquerda*/
+    padding-right: 50px; /*Código que define a distância interna da imagem a sua direita*/
+    padding-bottom: 20px; /*Código que define a distância interna da imagem ao seu chão*/
+    color: black; /*Código que define a cor da fonte do texto*/
+    text-decoration: none; /*Código que define a decoração do texto*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do título*/
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    bottom: 16px; /*Código que define a posição exata do título em relação ao "piso"*/
+    left: 35px; /*Código que define a posição exata do título em relação ao topo*/
+    cursor: pointer; /*Código que muda o cursor do mouse para uma mãozinha, item clicável*/
+}
+
+#cisco_2 a:hover /*Esrilização Apenas 'a' ao passar o mouse do Cisco 2*/ {
+    color: darkblue; /*Código que define a cor da fonte do texto*/
+    text-decoration: underline; /*Código que deixa o texto sublinhado*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+
+/* ========= */
+/*  Cisco 3  */
+/* ========= */
+
+#cisco_3 /*Estilização de todo Cisco 3*/ {
+    border: hidden; /*Código que cria bordas em torno do item*/ /*Deixa o item invisível*/
+}
+
+#cisco_3 img /*Estilização Apenas Img Cisco 3*/ {
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 10px; /*Código que define a posição exata do título em relação ao topo*/
+    left: 25px; /*Código que define a posição exata do título em relação ao topo*/
+}
+
+#cisco_3 a /*Esrilização Apenas 'a' Cisco 3*/ {
+    border: 4px solid; /*Código que cria bordas em torno do item*/
+    border-color: black; /*Código que dá cor a borda do item*/
+    border-end-end-radius: 61px; /*Código que arredonda a parte inferior direita da borda*/
+    border-bottom-left-radius: 61px; /*Código que arredonda a parte inferior esquerda da borda*/
+    border-top-left-radius: 61px; /*Código que arredonda a parte superior esquerda da borda*/
+    border-top-right-radius: 61px; /*Código que arredonda a parte superior direita da borda*/
+    background-color: gray; /*Código que coloca uma cor para todo o fundo da Seção*/
+    padding-top: 20px; /*Código que define a distância interna da imagem ao seu topo*/
+    padding-left: 50px; /*Código que define a distância interna da imagem a sua esquerda*/
+    padding-right: 50px; /*Código que define a distância interna da imagem a sua direita*/
+    padding-bottom: 20px; /*Código que define a distância interna da imagem ao seu chão*/
+    color: black; /*Código que define a cor da fonte do texto*/
+    text-decoration: none; /*Código que define a decoração do texto*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do título*/
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    bottom: 16px; /*Código que define a posição exata do título em relação ao "piso"*/
+    left: 35px; /*Código que define a posição exata do título em relação ao topo*/
+    cursor: pointer; /*Código que muda o cursor do mouse para uma mãozinha, item clicável*/
+}
+
+#cisco_3 a:hover /*Esrilização Apenas 'a' ao passar o mouse do Cisco 3*/ {
+    color: darkblue; /*Código que define a cor da fonte do texto*/
+    text-decoration: underline; /*Código que deixa o texto sublinhado*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+
+/* ========= */
+/*  Cisco 4  */
+/* ========= */
+
+#cisco_4 /*Estilização de todo Cisco 4*/ {
+    border: hidden; /*Código que cria bordas em torno do item*/ /*Deixa o item invisível*/
+}
+
+#cisco_4 img /*Estilização Apenas Img Cisco 4*/ {
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 10px; /*Código que define a posição exata do título em relação ao topo*/
+    left: 25px; /*Código que define a posição exata do título em relação ao topo*/
+}
+
+#cisco_4 a /*Esrilização Apenas 'a' Cisco 4*/ {
+    border: 4px solid; /*Código que cria bordas em torno do item*/
+    border-color: black; /*Código que dá cor a borda do item*/
+    border-end-end-radius: 61px; /*Código que arredonda a parte inferior direita da borda*/
+    border-bottom-left-radius: 61px; /*Código que arredonda a parte inferior esquerda da borda*/
+    border-top-left-radius: 61px; /*Código que arredonda a parte superior esquerda da borda*/
+    border-top-right-radius: 61px; /*Código que arredonda a parte superior direita da borda*/
+    background-color: gray; /*Código que coloca uma cor para todo o fundo da Seção*/
+    padding-top: 20px; /*Código que define a distância interna da imagem ao seu topo*/
+    padding-left: 50px; /*Código que define a distância interna da imagem a sua esquerda*/
+    padding-right: 50px; /*Código que define a distância interna da imagem a sua direita*/
+    padding-bottom: 20px; /*Código que define a distância interna da imagem ao seu chão*/
+    color: black; /*Código que define a cor da fonte do texto*/
+    text-decoration: none; /*Código que define a decoração do texto*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do título*/
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    bottom: 16px; /*Código que define a posição exata do título em relação ao "piso"*/
+    left: 35px; /*Código que define a posição exata do título em relação ao topo*/
+    cursor: pointer; /*Código que muda o cursor do mouse para uma mãozinha, item clicável*/
+}
+
+#cisco_4 a:hover /*Esrilização Apenas 'a' ao passar o mouse do Cisco 4*/ {
+    color: darkblue; /*Código que define a cor da fonte do texto*/
+    text-decoration: underline; /*Código que deixa o texto sublinhado*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+
+/* ========= */
+/*  Cisco 5  */
+/* ========= */
+
+#cisco_5 /*Estilização de todo Cisco 5*/ {
+    border: hidden; /*Código que cria bordas em torno do item*/ /*Deixa o item invisível*/
+}
+
+#cisco_5 img /*Estilização Apenas Img Cisco 5*/ {
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 10px; /*Código que define a posição exata do título em relação ao topo*/
+    left: 25px; /*Código que define a posição exata do título em relação ao topo*/
+}
+
+#cisco_5 a /*Esrilização Apenas 'a' Cisco 5*/ {
+    border: 4px solid; /*Código que cria bordas em torno do item*/
+    border-color: black; /*Código que dá cor a borda do item*/
+    border-end-end-radius: 61px; /*Código que arredonda a parte inferior direita da borda*/
+    border-bottom-left-radius: 61px; /*Código que arredonda a parte inferior esquerda da borda*/
+    border-top-left-radius: 61px; /*Código que arredonda a parte superior esquerda da borda*/
+    border-top-right-radius: 61px; /*Código que arredonda a parte superior direita da borda*/
+    background-color: gray; /*Código que coloca uma cor para todo o fundo da Seção*/
+    padding-top: 20px; /*Código que define a distância interna da imagem ao seu topo*/
+    padding-left: 50px; /*Código que define a distância interna da imagem a sua esquerda*/
+    padding-right: 50px; /*Código que define a distância interna da imagem a sua direita*/
+    padding-bottom: 20px; /*Código que define a distância interna da imagem ao seu chão*/
+    color: black; /*Código que define a cor da fonte do texto*/
+    text-decoration: none; /*Código que define a decoração do texto*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do título*/
+    font-size: 25px; /*Código que define o tamnhado da fonte*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    bottom: 16px; /*Código que define a posição exata do título em relação ao "piso"*/
+    left: 35px; /*Código que define a posição exata do título em relação ao topo*/
+    cursor: pointer; /*Código que muda o cursor do mouse para uma mãozinha, item clicável*/
+}
+
+#cisco_5 a:hover /*Esrilização Apenas 'a' ao passar o mouse do Cisco 5*/ {
+    color: darkblue; /*Código que define a cor da fonte do texto*/
+    text-decoration: underline; /*Código que deixa o texto sublinhado*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+
+/* ============================================== */
+/*      Fim da Seção Licenças e Certificações     */
+/* ============================================== */
+
+/* =============================== */
+/*       Seção Meus Projetos       */
+/* =============================== */
+
+
+
+/* =============================== */
+/*        Projetos Pessoais        */
+/* =============================== */
+
+#titulos_projetos_pessoais /*Estilização Apenas da Navegação Títulos Projetos Pessoais*/ {
+    text-align: center; /*Código que alinha o título em alguma parte do site*/
+    padding-top: 13px; /*Código que define a distância interna da imagem ao seu topo*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do texto*/
+    font-size: 20px; /*Código que define o tamnhado da fonte*/
+    font-variant: small-caps; /*Código que dá ao título uma variante de todas as letras maiúsculas com tamnhado de minúsculas*/ 
+}
+
+/* ================== */
+/*  La Bestia Static  */
+/* ================== */
+
+#la_bestia_static /*Estilização de Toda Navegação La Bestia Static*/ {
+    border: 1px solid; /*Código que cria bordas em torno do item*/
+    background-color: #007FFF; /*Código que coloca uma cor para todo o fundo da Seção*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 50px; /*Código que define a posição exata do título em relação ao topo*/
+}
+
+#la_bestia_static img /*Estilização Apenas da Imagem da Navegação La Bestia Static*/ {
+    width: 140px; /*Código que define a largura da imagem*/
+    height: 140px; /*Código que define a altura da imagem*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 50px; /*Código que define a posição exata do título em relação ao topo*/
+    left: 30px; /*Código que define a posição exata do título em relação a sua esquerda*/ 
+}
+
+#la_bestia_static p /*Estilização Apenas do 'p' da Navegação La Bestia Static*/ {
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do título*/
+    font-size: 30px; /*Código que define o tamnhado da fonte*/
+    text-align: center; /*Código que alinha o título em alguma parte do site*/
+    color: gold; /*Código que define a cor da fonte do título*/
+}
+
+#la_bestia_static p:hover /*Estilização Apenas do 'p' ao passar o mouse da Navegação La Bestia Static*/ {
+    color: gold; /*Código que define a cor da fonte do texto*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+
+#la_bestia_static a /*Esrilização Apenas 'a' La Bestia Static*/ {
+    text-decoration: none; /*Código que define a decoração do texto*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Código que define a fonte do título*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    left: 580px; /*Código que define a posição exata do título em relação a sua esquerda*/ 
+    bottom: 20px; /*Código que define a posição exata do título em relação ao "piso"*/
+    color: gold; /*Código que define a cor da fonte do título*/
+    font-size: 70px; /*Código que define o tamnhado da fonte*/
+    cursor: pointer; /*Código que muda o cursor do mouse para uma mãozinha, item clicável*/
+}
+
+#la_bestia_static a:hover /*Esrilização Apenas 'a' ao passar o mouse do La bestia*/ {
+    color: gold; /*Código que define a cor da fonte do texto*/
+    text-decoration: underline; /*Código que deixa o texto sublinhado*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+
+/* ===================== */
+/* Fim La Bestia Static  */
+/* ===================== */
+
+/* ================== */
+/*    Odicá Oficial   */
+/* ================== */
+
+#odica_oficial /*Estilização de Toda Navegação Odicá Oficial*/ {
+    border: 1px solid; /*Código que cria bordas em torno do item*/
+    background-color: #008000; /*Código que coloca uma cor para todo o fundo da Seção*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 50px; /*Código que define a posição exata do título em relação ao topo*/
+} 
+
+#odica_oficial img /*Estilização Apenas da Imagem da Navegação Odicá Oficial*/ {
+    width: 140px; /*Código que define a largura da imagem*/
+    height: 140px; /*Código que define a altura da imagem*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    top: 50px; /*Código que define a posição exata do título em relação ao topo*/
+    left: 30px; /*Código que define a posição exata do título em relação a sua esquerda*/ 
+}
+
+#odica_oficial p /*Estilização Apenas do 'p' da Navegação Odicá Oficial*/ {
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do título*/
+    font-size: 30px; /*Código que define o tamnhado da fonte*/
+    text-align: center; /*Código que alinha o título em alguma parte do site*/
+    color: darkred; /*Código que define a cor da fonte do título*/
+}
+
+#odica_oficial p:hover /*Estilização Apenas do 'p' ao passar o mouse da Navegação Odicá Oficial*/ {
+    color: darkred; /*Código que define a cor da fonte do texto*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+
+#odica_oficial a /*Estilização Apenas do 'a' da Navegação Odicá Oficial*/ {
+    text-decoration: none; /*Código que define a decoração do texto*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*Código que define a fonte do título*/
+    position: relative; /*Código que define a posição exata da imagem ao referencial relativo*/
+    left: 580px; /*Código que define a posição exata do título em relação a sua esquerda*/ 
+    bottom: 20px; /*Código que define a posição exata do título em relação ao "piso"*/
+    color: darkred; /*Código que define a cor da fonte do título*/
+    font-size: 70px; /*Código que define o tamnhado da fonte*/
+    cursor: pointer; /*Código que muda o cursor do mouse para uma mãozinha, item clicável*/
+}
+
+#odica_oficial a:hover /*Estilização Apenas do 'a' ao passar o mouse da Navegação Odicá Oficial*/ {
+    color: darkred; /*Código que define a cor da fonte do texto*/
+    text-decoration: underline; /*Código que deixa o texto sublinhado*/
+    font-weight: bold; /*Código que deixa o texto em negrito*/
+}
+/* ================== */
+/*  Fim Odicá Oficial */
+/* ================== */
+
+/* =============================== */
+/*     Projetos Profissionais      */
+/* =============================== */
+
+#titulos_projetos_profissionais /*Estilização Apenas da Navegação Títulos Projetos Profissionais*/ {
+    text-align: center; /*Código que alinha o título em alguma parte do site*/
+    padding-top: 80px; /*Código que define a distância interna da imagem ao seu topo*/
+    font-family: Arial, Helvetica, sans-serif; /*Código que define a fonte do texto*/
+    font-size: 20px; /*Código que define o tamnhado da fonte*/
+    font-variant: small-caps; /*Código que dá ao título uma variante de todas as letras maiúsculas com tamnhado de minúsculas*/ 
+}
+
+/* =============================== */
+/*    Fim da Seção Meus Projetos   */
+/* =============================== */
+
+/* =============================== */
+/*       Seção Meus Serviços       */
+/* =============================== */
+
+/* =============================== */
+/*    Fim da Seção Meus Serviços   */
 /* =============================== */
